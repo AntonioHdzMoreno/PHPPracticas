@@ -1,0 +1,410 @@
+:root {
+  --Largo: 200px;
+  --Ancho: 200px;
+}
+
+.iconos
+{
+  max-width: 15px;
+  max-height: 15px;
+}
+
+.linea
+{
+  background: rgb(179, 178, 178);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.grid2 {
+  display: -ms-grid;
+  display: grid;
+
+  padding: 0px 0;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.grid2 .card2 {
+  background:white;
+  padding: 0px;
+  border-radius: 0px;
+  position: relative;
+  min-height: 350px;
+  margin-top: 50px;
+  min-width: 1100px;
+  width: 100%;
+  height: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.grid2 .card2 .img
+{
+  padding-top: 5px;
+  padding-left: 30px;
+  height: auto;
+  width: auto;
+  max-height: 600px;
+  max-width: 600px;
+}
+
+.grid2 .card2 .InfoAlbum
+{
+  position: relative;
+  left: 600px;
+  padding-top: 10px;
+  text-align: left;
+  position: absolute;
+  
+}
+.grid2 .card2 .InfoAlbum .TituloAlbum
+{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+
+}
+.grid2 .card2 .InfoAlbum .TextoAlbum
+{
+  font-size: 15px;
+}
+
+.TextoNegrita
+{
+  font-weight: bold;
+}
+
+.BotonComprar
+{
+  padding: 10px;
+  background-color:rgb(190, 189, 189); 
+  width: 120px;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.BotonComprar:hover
+{
+background: #ACABAB;
+}
+
+
+.Titulos
+{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+/*Pagina Venta */
+
+.grid3 {
+  display: -ms-grid;
+  display: grid;
+
+  padding: 0px 0;
+  max-width: 800px;
+}
+
+.grid3 .card2 {
+  background:white;
+  padding: 0px;
+  border-radius: 0px;
+  position: relative;
+  min-height: 350px;
+  margin-top: 50px;
+  min-width: 900px;
+  width: 100%;
+  height: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 60px;
+
+}
+
+.grid3 .card2 .img
+{
+  padding-top: 5px;
+  padding-left: 30px;
+  height: auto;
+  width: auto;
+  max-height: 600px;
+  max-width: 600px;
+}
+
+.grid3 .card2 .InfoAlbum
+{
+  position: relative;
+  left: 600px;
+  padding-top: 10px;
+  text-align: left;
+  position: absolute;
+  
+}
+.grid3 .card2 .InfoAlbum .TituloAlbum
+{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+
+}
+.grid3 .card2 .InfoAlbum .TextoAlbum
+{
+  font-size: 15px;
+}
+.InfoVentas
+{
+  position: relative;
+  left: 100px;
+  padding-top: 10px;
+  text-align: left;
+  position: absolute;
+  text-size-adjust: 20px;
+}
+
+.ProductoVenta
+{
+
+  left: 600px;
+  padding-top: 10px;
+  text-align: left;
+  position: absolute;
+  height: 600px;
+  border-left: 1px solid grey;
+}
+
+.grid3 .card2 .ProductoVenta .img
+{
+  padding-top: 30px;
+  padding-left: 10px;
+  height: auto;
+  width: auto;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.TextoVenta
+{
+  padding-left: 200px;
+  padding-top: 30px;
+  
+  border-bottom: 1px solid grey;
+}
+
+
+* {
+  padding: 10;
+  margin: 10;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  background-image: url("Fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+a {
+  color: #222222;
+  text-decoration: black;
+  font-weight: 500;
+}
+
+
+.contenedor {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  padding: 60px 0;
+}
+
+
+
+
+nav {
+  background: rgb(179, 178, 178);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 20px;
+  border-radius: 5px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  -webkit-box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+          box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+}
+
+
+nav .logotipo {
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Barra del Menu arriba */
+nav .enlaces {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo 
+{
+ 
+ /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+nav .enlaces a {
+  margin-right: 40px;
+}
+
+nav .enlaces a:hover {
+  color: #707070;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 5%;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0px 0;
+  border: 1px solid grey;
+}
+/*Cajas que guardan las imagenes/botones- */
+.grid .card {
+  background: rgb(253, 251, 251);
+  padding: 10px;
+  border-radius: 0px;
+  -webkit-box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+          box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  min-height: 350px;
+  margin-top: 100px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  max-height: 400px;
+  max-width: 230px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid grey;
+}
+
+.grid .card:hover .img
+{
+  opacity: 0.8;
+}
+.grid .card:hover .botones .boton.primario
+{
+  opacity: 0.8;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0px;
+  position: absolute;
+  top: 20px;
+  
+ /* width: calc(100% - 20px); */
+  height: auto;
+  width: auto;
+  max-height: var(--Largo);
+  max-width: var(--Ancho);
+  -o-object-fit: cover;
+     object-fit: cover;
+     transition: .5s ease;
+     backface-visibility: hidden;
+     opacity: 1;
+     display: block;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+  
+}
+
+
+
+.grid .card .botones {
+  width: 100%;
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: 1fr ;
+      grid-template-columns: 1fr ;
+}
+
+/*Titulos */
+.grid .card .botones .Titulos{
+  text-align: left;
+  position: absolute;
+}
+
+.grid .card .botones .boton {
+  padding: 10px;
+  color: #fff;
+  width: 100%;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.grid .card .botones .boton.primario {
+   color: black;
+}
+
+.grid .card .botones .boton.primario:hover {
+  color: #707070;
+}
+
+.grid .card .botones .boton.secundario {
+  background: #C8C8C8;
+}
+
+.grid .card .botones .boton.secundario:hover {
+  background: #ACABAB;
+}
+/*# sourceMappingURL=estilos.css.map */
+
