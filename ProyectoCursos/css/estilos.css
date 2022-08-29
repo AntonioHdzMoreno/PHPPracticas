@@ -1,0 +1,71 @@
+/* Importar los demás Estilos para no tener todo en uno*/
+@import url(menu.css);
+
+*
+{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+
+#headeritems
+{
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+}
+
+#titulo
+{
+    float:right;
+    font-size: 28px;
+    margin: 18px 0;
+    cursor: pointer;
+}
+/*Header mi parte de arriba, y que siempre se vea.*/
+
+#mainicon
+{
+    height: 50px;
+    width: 50px;
+}
+
+header
+{
+    width: 100%;
+    height: 60px;
+    background:#034cc1;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header .contenedor
+{
+    display:table;
+}
+
+/*Fuente común de todo el body*/
+body{
+    font-family:sans-serif;
+    background-color: #231c3e;    
+}
+/* Contenedor */
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+h1
+{
+float: left;
+}
+
+@media(min-width:1024px)
+{
+    .contenedor{
+        width: 1000px;
+    }
+}
