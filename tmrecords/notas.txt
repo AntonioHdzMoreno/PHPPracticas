@@ -1,0 +1,19 @@
+DELIMITER $$
+USE ventas;
+CREATE PROCEDURE SP_InsertarVenta(
+	IN _NombreCliente VARCHAR(50),
+	IN _Apellido VARCHAR(50),
+	IN _Direccion VARCHAR(60),
+	IN _Ciudad VARCHAR(30),
+	IN _Estado VARCHAR(30),
+	IN _CodPostal INT(5),
+	IN _Correo VARCHAR(50),
+	IN _Telefono INT(10),
+	IN _Edad INT(2),
+	IN _NombreProducto VARCHAR(60),
+	IN _Precio INT(11)
+)
+BEGIN
+	   INSERT INTO ventas (NombreCliente, Apellido, Direccion, Ciudad, Estado, CodPostal, Correo, Telefono, Edad, IdProducto, Precio, NombreProducto, Precio)
+	   VALUES (_NombreCliente, _Apellido, _Direccion, _Ciudad, _Estado, _CodPostal, _Correo, _Telefono, _Edad, _IdProducto, _NombreProducto, _Precio);
+	END

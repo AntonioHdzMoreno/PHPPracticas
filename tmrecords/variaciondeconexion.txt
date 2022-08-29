@@ -1,0 +1,7 @@
+
+
+    $datos = array("Producto", "Precio", "NombreCliente", "Apellido", "Direccion", "Ciudad", "Estado", "CodPostal", "Correo", "Telefono", "Edad");
+    $statement = $conexion ->prepare("CALL SP_InsertarVenta(?,?,?,?,?,?,?,?,?,?,?)");
+    $statement -> bind_param("sisssssisii",$datos["Producto"],$datos["Precio"], $datos["NombreCliente"], $datos["Apellido"], $datos["Direccion"], $datos["Ciudad"], $datos["Estado"], $datos["CodPostal"], $datos["Correo"], $datos["Telefono"], $datos["Edad"]);
+    $statement -> execute();
+    $conexion -> close();
