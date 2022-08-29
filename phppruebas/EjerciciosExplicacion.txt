@@ -1,0 +1,89 @@
+Ejercicio 1: Comentarios e instrucciones de texto
+
+Ejercicio 2: Formulario con post
+
+Ejercicio 3: Formulario con get
+
+Ejercicio 5: Concatenacion de valores
+
+Ejercicio 6: Tipos de variables
+
+Ejercicio 7: Constantes
+
+Ejercicio 8: Operadores Artimeticos
+
+Ejercicio 9: Operadores Relacionales
+
+Ejercicio 10: Operadores Logicos
+
+Ejercicio 11: If anidados
+
+Ejercicio 12: If else 
+
+Ejercicio 13: Switch
+
+Ejercicio 14: Ciclo For
+
+Ejercicio 15: Ciclo Do While 
+
+Ejercicio 16: Ciclo While
+
+Ejercicio 17: Funciones Basicas
+
+Ejercicio 18: Funciones ya hechas (PhpManual) Random
+
+Ejercicio 19: Funciones ya hechas (PhpManual) Strings
+
+Ejercicio 20: Funciones ya hechas (PhpManual) Date
+
+Ejercicio 21: Arrays
+
+Ejercicio 22: Arrays con indices y foreach
+
+Ejercicio 23: Array push (Añadir al array items)
+
+Ejercicio 24: Clases y creacion de objetos (e imprimir propiedades) y tipos de propiedades
+
+Ejercicio 25: Clases heredacion (extends)
+
+Ejercicio 26: Constructor 
+
+Ejercicio 27: Metodos estaticos
+
+-Bases de Datos-
+
+Ejercicio 28: Conectarse a una base de Datos
+
+Ejercicio 29: Insertar en la Base de datos
+
+Ejercicio 30: Leer en la Base de Datos e imprimirlos
+
+Ejercicio 31: Session Funcion (Para guardar informacion y sesiones entre paginas)
+
+Ejercicio 32: Destruir la variable de Sesion (Tambien se destruye si se cierra el navegador)
+
+Ejercicio 33: Inputs (Recibir datos) y utilizar PHP en HTML bien
+
+Ejercicio 34: Radio Inputs (Multiples Opciones), imprimir valores y multiples desiciones.
+Ejercicio 34: Checkboxes, Radio buttons.
+Ejercicio 34: Options (Opciones multiples)
+
+Ejercicio 35: Recibir imagenes o archivos Tipo File y copiar archivos
+
+Ejercicio 36: Archivos Json, leerlos.
+
+Ejercicio 37: Archivos Json, convertirlos.
+
+Ejercicio 38: Consumir Apis
+
+Ejercicio 39: Include (Incluir contenido de diferentes archivos si estos no estan muestra un warning.)
+Ejercicio 39: Include_Once(Inlcuye solamente el archivo una vez en caso de que se haya repetido)
+
+Ejercicio 40: Requiere (Incluye archivos pero si este no esta detiene todas las instrucciones.)
+Ejercicio 40: Require_Once (Incluye solamente el archivo una vez en caso que se haya repetido.)
+
+Ejercicio 41: Abrir archivos y leer su contenido (En este caso un txt).
+
+Ejercicio 42: Crear archivos y escribir en ellos.
+
+Carpeta (Proyecto Especial FInal Portafolio)
